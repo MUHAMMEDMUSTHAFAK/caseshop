@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Black Case",
+    "price": 299,
+    "image": "/image/case1.jpeg",
+    "model": "iPhone 14"
+  },
+  {
+    "id": 2,
+    "name": "Transparent Slim Case",
+    "price": 349,
+    "image": "https://via.placeholder.com/200",
+    "model": "Samsung S23"
+  },
+  {
+    "id": 3,
+    "name": "Floral Designer Case",
+    "price": 399,
+    "image": "https://zapvi.in/wp-content/uploads/2024/07/H-APPLEIPHONE14-3180.jpg",
+    "model": "iPhone 14"
+  },
+  {
+    "id": 4,
+    "name": "Rugged Tough Case",
+    "price": 499,
+    "image": "/case4.jpg",
+    "model": "Samsung S23"
+  },
+  {
+    "id": 5,
+    "name": "Neon Glow Case",
+    "price": 279,
+    "image": "https://via.placeholder.com/200/ff00ff",
+    "model": "iPhone 13"
+  },
+  {
+    "id": 6,
+    "name": "Wood Texture Case",
+    "price": 399,
+    "image": "https://via.placeholder.com/200/8B4513",
+    "model": "OnePlus 11"
+  },
+  {
+    "id": 7,
+    "name": "Marble Art Case",
+    "price": 429,
+    "image": "https://via.placeholder.com/200/cccccc",
+    "model": "Google Pixel 7"
+  },
+  {
+    "id": 8,
+    "name": "Leather Finish Case",
+    "price": 459,
+    "image": "https://via.placeholder.com/200/654321",
+    "model": "Samsung S22"
+  },
+  {
+    "id": 9,
+    "name": "Cartoon Fun Case",
+    "price": 349,
+    "image": "https://via.placeholder.com/200/ffcc00",
+    "model": "iPhone 13"
+  },
+  {
+    "id": 10,
+    "name": "Sporty Grip Case",
+    "price": 379,
+    "image": "https://via.placeholder.com/200/00ccff",
+    "model": "OnePlus 11"
+  }
+]

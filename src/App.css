@@ -125,7 +125,7 @@ h2 {
 /* Hero Section */
 .hero-section {
   height: 100vh;
-  background-image: url('D:\programs\REACT\project\caseshop\public\image\Gemini_Generated_Image_axvl0iaxvl0iaxvl.png');
+  background-image: url('./bg.png');
   background-size: cover;
   background-position: center;
   position: relative;

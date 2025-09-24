@@ -1,72 +1,45 @@
 [
-  {
-    "id": 1,
-    "name": "Classic Black Case",
-    "price": 299,
-    "image": "/image/case1.jpeg",
-    "model": "iPhone 14"
-  },
-  {
-    "id": 2,
-    "name": "Transparent Slim Case",
-    "price": 349,
-    "image": "https://via.placeholder.com/200",
-    "model": "Samsung S23"
-  },
-  {
-    "id": 3,
-    "name": "Floral Designer Case",
-    "price": 399,
-    "image": "https://zapvi.in/wp-content/uploads/2024/07/H-APPLEIPHONE14-3180.jpg",
-    "model": "iPhone 14"
-  },
-  {
-    "id": 4,
-    "name": "Rugged Tough Case",
-    "price": 499,
-    "image": "/case4.jpg",
-    "model": "Samsung S23"
-  },
-  {
-    "id": 5,
-    "name": "Neon Glow Case",
-    "price": 279,
-    "image": "https://via.placeholder.com/200/ff00ff",
-    "model": "iPhone 13"
-  },
-  {
-    "id": 6,
-    "name": "Wood Texture Case",
-    "price": 399,
-    "image": "https://via.placeholder.com/200/8B4513",
-    "model": "OnePlus 11"
-  },
-  {
-    "id": 7,
-    "name": "Marble Art Case",
-    "price": 429,
-    "image": "https://via.placeholder.com/200/cccccc",
-    "model": "Google Pixel 7"
-  },
-  {
-    "id": 8,
-    "name": "Leather Finish Case",
-    "price": 459,
-    "image": "https://via.placeholder.com/200/654321",
-    "model": "Samsung S22"
-  },
-  {
-    "id": 9,
-    "name": "Cartoon Fun Case",
-    "price": 349,
-    "image": "https://via.placeholder.com/200/ffcc00",
-    "model": "iPhone 13"
-  },
-  {
-    "id": 10,
-    "name": "Sporty Grip Case",
-    "price": 379,
-    "image": "https://via.placeholder.com/200/00ccff",
-    "model": "OnePlus 11"
-  }
+  { "id": 1, "name": "Classic Black Case", "price": 299, "image": "/image/case1.jpeg", "model": "iPhone 14", "type": "mobile-cover" },
+  { "id": 2, "name": "Transparent Slim Case", "price": 349, "image": "/image/image.png", "model": "Samsung S23", "type": "mobile-cover" },
+  { "id": 3, "name": "Marble Art Cover", "price": 399, "image": "/image/marble.webp", "model": "iPhone 13", "type": "mobile-cover" },
+  { "id": 4, "name": "Leather Finish Case", "price": 459, "image": "/image/lather.jpg", "model": "Samsung S22", "type": "mobile-cover" },
+  { "id": 5, "name": "Floral Pattern Case", "price": 379, "image": "/image/floral.jpg", "model": "iPhone 14", "type": "mobile-cover" },
+  { "id": 6, "name": "Neon Glow Case", "price": 279, "image": "/image/neon.jpg", "model": "iPhone 13", "type": "mobile-cover" },
+  { "id": 7, "name": "Wood Texture Case", "price": 399, "image": "/image/wood.jpg", "model": "OnePlus 11", "type": "mobile-cover" },
+  { "id": 8, "name": "Rugged Tough Cover", "price": 499, "image": "/image/rugg.jpg", "model": "Samsung S23", "type": "mobile-cover" },
+  { "id": 9, "name": "Sporty Grip Case", "price": 379, "image": "/image/sport.jpg", "model": "OnePlus 11", "type": "mobile-cover" },
+  { "id": 10, "name": "Cartoon Fun Case", "price": 349, "image": "/image/cart.jpg", "model": "iPhone 13", "type": "mobile-cover" },
+
+  { "id": 11, "name": "Floral Designer Case", "price": 399, "image": "/image/flor.jpg", "model": "iPhone 14", "type": "snap-case" },
+  { "id": 12, "name": "Matte Snap Cover", "price": 299, "image": "/image/mate.jpg", "model": "Samsung S23", "type": "snap-case" },
+  { "id": 13, "name": "Glossy Snap Case", "price": 349, "image": "/image/glos.jpg", "model": "iPhone 13", "type": "snap-case" },
+  { "id": 14, "name": "Marble Snap Cover", "price": 399, "image": "/image/mar.jpg", "model": "OnePlus 11", "type": "snap-case" },
+  { "id": 15, "name": "Leather Snap Case", "price": 459, "image": "/image/let.jpg", "model": "Samsung S22", "type": "snap-case" },
+  { "id": 16, "name": "Floral Pink Snap", "price": 379, "image": "/image/pin.jpg", "model": "iPhone 14", "type": "snap-case" },
+  { "id": 17, "name": "Clear Slim Snap", "price": 279, "image": "/image/slim.jpg", "model": "iPhone 13", "type": "snap-case" },
+  { "id": 18, "name": "Neon Snap Case", "price": 399, "image": "/image/gr.jpg", "model": "Samsung S23", "type": "snap-case" },
+  { "id": 19, "name": "Soft Snap Cover", "price": 349, "image": "/image/sof.jpg", "model": "OnePlus 11", "type": "snap-case" },
+  { "id": 20, "name": "Cartoon Snap Fun", "price": 369, "image": "/image/fun.jpg", "model": "iPhone 13", "type": "snap-case" },
+
+  { "id": 21, "name": "Rugged Tough Case", "price": 499, "image": "/image/sil.jpg", "model": "Samsung S23", "type": "soft-silicone" },
+  { "id": 22, "name": "Soft Silicone Glow", "price": 279, "image": "/image/glow.jpg", "model": "iPhone 13", "type": "soft-silicone" },
+  { "id": 23, "name": "Marble Silicone Case", "price": 399, "image": "/image/marb.jpg", "model": "Google Pixel 7", "type": "soft-silicone" },
+  { "id": 24, "name": "bige Silicone", "price": 459, "image": "/image/big.jpg", "model": "Samsung S22", "type": "soft-silicone" },
+  { "id": 25, "name": "Sport Grip Silicone", "price": 379, "image": "/image/grip.jpg", "model": "OnePlus 11", "type": "soft-silicone" },
+  { "id": 26, "name": "Floral Silicone", "price": 399, "image": "/image/flow.jpg", "model": "iPhone 14", "type": "soft-silicone" },
+  { "id": 27, "name": "Neon Silicone Case", "price": 349, "image": "/image/neon.jpg", "model": "iPhone 13", "type": "soft-silicone" },
+  { "id": 28, "name": "Wood Texture Silicone", "price": 399, "image": "/image/wood.jpg", "model": "OnePlus 11", "type": "soft-silicone" },
+  { "id": 29, "name": "Clear Soft Silicone", "price": 299, "image": "/image/slim.jpg", "model": "Samsung S23", "type": "soft-silicone" },
+  { "id": 30, "name": "Cartoon Soft Silicone", "price": 349, "image": "/image/cart.jpg", "model": "iPhone 13", "type": "soft-silicone" },
+
+  { "id": 31, "name": "Glossy Metal Black", "price": 459, "image": "/image/bla.jpg", "model": "Samsung S22", "type": "glossy-metal" },
+  { "id": 32, "name": "Glossy Metal Silver", "price": 499, "image": "/image/meta.jpg", "model": "iPhone 14", "type": "glossy-metal" },
+  { "id": 33, "name": "Glossy Metal Gold", "price": 529, "image": "/image/gold.jpg", "model": "iPhone 13", "type": "glossy-metal" },
+  { "id": 34, "name": "Metallic Blue Case", "price": 479, "image": "/image/blue.jpg", "model": "OnePlus 11", "type": "glossy-metal" },
+  { "id": 35, "name": "Metallic Red Case", "price": 479, "image": "/image/red.jpg", "model": "Samsung S23", "type": "glossy-metal" },
+  { "id": 36, "name": "Glossy Metal Green", "price": 459, "image": "/image/green.jpg", "model": "Google Pixel 7", "type": "glossy-metal" },
+  { "id": 37, "name": "Glossy Metal Pink", "price": 399, "image": "/image/pink.jpg", "model": "iPhone 13", "type": "glossy-metal" },
+  { "id": 38, "name": "Glossy Metal Purple", "price": 399, "image": "/image/pur.jpg", "model": "OnePlus 11", "type": "glossy-metal" },
+  { "id": 39, "name": "Glossy Metal Cyan", "price": 399, "image": "/image/cy.jpg", "model": "Samsung S22", "type": "glossy-metal" },
+  { "id": 40, "name": "Glossy Metal", "price": 349, "image": "/image/mg.jpg", "model": "iPhone 14", "type": "glossy-metal" }
 ]

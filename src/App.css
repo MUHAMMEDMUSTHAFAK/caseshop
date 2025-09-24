@@ -122,3 +122,85 @@ h2 {
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   outline: none;
 }
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background-image: url('D:\programs\REACT\project\caseshop\public\image\Gemini_Generated_Image_axvl0iaxvl0iaxvl.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-section .hero-content {
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s ease;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease;
+  animation-delay: 0.3s;
+}
+
+.hero-section .btn-shop {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  color: #fff;
+  border-radius: 50px;
+  padding: 12px 35px;
+  font-size: 1.2rem;
+  animation: fadeInUp 1.5s ease;
+  display: inline-block;
+  font-weight: 700;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-section .btn-shop:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
